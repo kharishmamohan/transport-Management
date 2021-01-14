@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cargo Details</title>
+<style>
+h3 {
+text-align:center;
+}
+table, th, td, tr {
+  border: 1px solid black;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+
+#add {
+display:block;
+ border: 1px solid black;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+</style>
+</style>
+</head>
+<body>
+<body>
+	<form  action = "InsertTransport">
+	<table>
+	
+	<tr>
+			<td>From Location:</td>
+			<td>
+			<select name= "Location">
+			        <option value = "Kadapa">kadapa</option>
+					<option value = "Hyderabad">Hyderabad</option>
+					<option value = "Banglore">Banglore</option>
+					<option value = "Chennai">Chennai</option>
+					
+			</select>
+			</td>		
+		</tr>
+		
+		<tr>
+			<td> To Location: </td>
+			<td>
+			<select name= "Location1">
+			        <option value = "Maharastra">Maharastra</option>
+					<option value = "Chandigarh">Chandigarh</option>
+					<option value = "Bhuvaneshwar">Bhuvaneshwar</option>
+					<option value = "Orissa">Orissa</option>
+					
+			</select>
+			</td>			
+		</tr>	
+		
+		<tr>
+			<td> Vehicle Id: </td>
+			<td><input type = "text" name = "Id"/><br/></td> 	
+		</tr>
+		
+		<tr>
+			<td> Weight Of Cargo: </td>
+			<td><input type ="number" name ="Weight"/>
+			
+			</td>		 	
+		</tr>
+		
+		<tr>
+			<td> Journey Time: </td>
+			<td>
+			<select name= "Time">
+			        <option value = "10AM">10am</option>
+					<option value = "12PM">12pm</option>
+					<option value = "8PM">8pm</option>
+					<option value = "11PM">11pm</option>
+					
+			</select>
+			</td>		
+		</tr>
+		
+	
+		<tr>
+			<td> Price: </td>
+			<td>
+			<input type="number" name="Price"/>
+			</td>		
+		</tr>
+		
+		<tr>
+			<td> Dateofjourney: </td>
+			<td>
+			<input type= "Date" name ="Doj">
+			</td>		
+		</tr>
+		
+		
+		<tr>
+			<td> Tracking : </td>
+			<td>
+				<select name = "Delivery">
+					<option value = "Processing">Processing</option>
+					<option value = "Packing in process">Packing in Process </option>
+					<option value = "shipping">Shipping</option>
+					<option value = "Delivered">Delivered</option>
+				</select>
+			</td> 	
+		</tr>
+		
+		
+</table>
+
+
+
+<br/>
+
+		 	 	<input id = "add" type = "submit" value = "Proceed" name = "s3">
+		 
+	
+	</form>
+
+</body>
+</html>
